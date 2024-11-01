@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  background-color: rgb(20, 114, 20);
+  display: flex;
+  justify-content: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.field {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+.field button {
+  width: 128px;
+  height: 128px;
+  border: none;
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+.play-button {
+  display: flex;
+  justify-content: center;
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.play-button > button {
+  border: none;
+  width: 128px;
+  height: 64px;
+  margin: 120px;
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="page-top">
+      <h1>Tic Tac Toe</h1>
+    </div>
+    <form class="field" id="field">
+      <li class="top-row">
+        <ul>
+          <button type="submit" id="1" onclick="sendCoords(1,1)"></button>
+        </ul>
+        <ul>
+          <button type="submit" id="2" onclick="sendCoords(1,2)"></button>
+        </ul>
+        <ul>
+          <button type="submit" id="3" onclick="sendCoords(1,3)"></button>
+        </ul>
+      </li>
+      <li class="middle-row">
+        <ul>
+          <button type="submit" id="4" onclick="sendCoords(2,1)"></button>
+        </ul>
+        <ul>
+          <button type="submit" id="5" onclick="sendCoords(2,2)"></button>
+        </ul>
+        <ul>
+          <button type="submit" id="6" onclick="sendCoords(2,3)"></button>
+        </ul>
+      </li>
+      <li class="bottom-row">
+        <ul>
+          <button type="submit" id="7" onclick="sendCoords(3,1)"></button>
+        </ul>
+        <ul>
+          <button type="submit" id="8" onclick="sendCoords(3,2)"></button>
+        </ul>
+        <ul>
+          <button type="submit" id="9" onclick="sendCoords(3,3)"></button>
+        </ul>
+      </li>
+    </form>
+    <form class="play-button" id="play-button">
+      <button type="submit">Play</button>
+    </form>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
